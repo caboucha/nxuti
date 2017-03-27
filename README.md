@@ -8,7 +8,7 @@ clone the project: $ git clone https://github.com/caboucha/nxuti.git
 
 cd into the project dir. $ cd nxuti/cmd/nxctl
 
-Pull in deps: $ go get github.com/TBD
+Pull in deps: $ go get github.com/spf13/cobra
 
 Build the bin: $ go build -i
 
