@@ -6,13 +6,13 @@ and port-channel interfaces.   VLAN objects can also be managed.
 
 clone the project: $ git clone https://github.com/caboucha/nxuti.git
 
-cd into the project dir. $ cd nxuti
+cd into the project dir. $ cd nxuti/cmd/nxctl
 
 Pull in deps: $ go get github.com/TBD
 
 Build the bin: $ go build -i
 
-Run the client against the nx-api, passing the appropriate flags: $ ./nxctl trunkVlan show --interface ethernet -address=10.1.1.254 -username=admin -password=cisco
+Run the client against the nx-api, passing the appropriate flags: $ ./nxctl trunkVlan show --interface ethernet -hosts=10.1.1.254 -user=admin -pass=cisco
 
 Sample Usage below:
 

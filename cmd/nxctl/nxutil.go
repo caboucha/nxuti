@@ -14,7 +14,7 @@
 
 package main
 
-import "github.com/danehans/nxuti/pkg/cli"
+import "github.com/caboucha/nxuti/pkg/cli"
 
 func main() {
 	cli.Execute()

@@ -20,7 +20,7 @@ import (
 
 	"github.com/spf13/cobra"
 	"text/tabwriter"
-        "github.com/danehans/nxgo/nx"
+        "github.com/caboucha/nxgo/nx"
 )
 
 var cfgFile string
